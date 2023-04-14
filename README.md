@@ -10,4 +10,4 @@
 ## 3. To run the React project.
 ### `npm start`
 
-![assessment](https://user-images.githubusercontent.com/68503196/231920140-41ca2a81-8e74-496f-8b66-d49e467adcbc.png)
+![pict](https://user-images.githubusercontent.com/68503196/232169159-f37919b9-d03c-4184-a89c-eeeeec3386ef.png)
