@@ -34,12 +34,14 @@ const HomePage = () => {
 
       <Modal show={showModal} onHide={handleClose}>
         <Modal.Header closeButton>
-          <Modal.Title>{selectedItem.title}</Modal.Title>
+          <Modal.Title>
+            <p>{selectedItem.id}</p>
+              {selectedItem.title}
+          </Modal.Title>
         </Modal.Header>
-        <Modal.Body>
-          <p>{selectedItem.id}</p>
-          <p>{selectedItem.body}</p>
-        </Modal.Body>
+          <Modal.Body>
+            <p>{selectedItem.body}</p>
+          </Modal.Body>
         <Modal.Footer>
           <Button variant="secondary" onClick={handleClose}>
             Close
