@@ -20,7 +20,7 @@ const HomePage = () => {
       <div className="container mt-5">
         <div className="row">
           {data.map((item, index) => (
-            <div className="col-md-4" key={index}>
+            <div className="col-md-4 mb-5" key={index}>
               <div className="card" onClick={() => handleShow(item)}>
                 <div className="card-body">
                   <h5 className="card-title">{item.id}</h5>
