@@ -24,7 +24,7 @@ const HomePage = () => {
               <div className="card" onClick={() => handleShow(item)}>
                 <div className="card-body">
                   <h5 className="card-title">{item.id}</h5>
-                  <h5 className="card-title">{item.title}</h5>
+                  <h5 className="card-title">{item.title.substring(0,30)}</h5>
                 </div>
               </div>
             </div>
